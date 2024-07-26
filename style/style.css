@@ -34,3 +34,8 @@ nav ul {
 .nav-left span {
     color: red;
 }
+.banner-section {
+    background-image: url(../Images/cover1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
