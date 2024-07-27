@@ -4,25 +4,30 @@ body {
     margin: auto;
 
 }
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 30px 0;
 }
+
 nav ul {
     display: flex;
     gap: 15px;
     align-items: center;
 }
+
 .nav-right ul li {
     list-style: none;
 }
+
 .nav-left {
     display: flex;
     justify-content: space-between;
@@ -31,11 +36,135 @@ nav ul {
     font-size: 25px;
     font-family: "Mulish", sans-serif;
 }
+
 .nav-left span {
     color: red;
 }
-.banner-section {
+/*
+.banner-container {
     background-image: url(../Images/cover1.png);
-    background-repeat: no-repeat;
     background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(19, 19, 24, 0.8), rgba(19, 19, 24, 0) 100%), url(../Images/cover1.png);
+}
+
+.banner-content {
+    width: 65%;
+    margin: auto;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.banner-text h3 {
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 24px;
+    color: white;
+    z-index: 10;
+}
+
+.banner-text p {
+    margin-bottom: 50px;
+    line-height: 1.5;
+    color: white;
+    z-index: 10;
+}
+
+.banner-input {
+    background: rgba(255, 255, 255, 0.3);
+    padding: 30px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.banner-input input {
+    padding: 12px;
+    width: 174px;
+
+}
+
+.banner-input select {
+    padding: 12px;
+    width: 174px;
+}
+
+.banner-input button {
+    padding: 12px;
+    background-color: rgb(255, 84, 0);
+    width: 174px;
+} */
+
+
+
+
+
+
+.banner-container {
+    border-radius: 16px;
+
+    background: linear-gradient(180.00deg, rgba(19, 19, 24, 0.8),rgba(19, 19, 24, 0) 100%), url(../Images/cover1.png);
+    background-repeat: no-repeat;
+    
+
+}
+.banner-content {
+    width: 65%;
+    margin: auto;
+    text-align: center;
+    padding: 120px 0;
+}
+.banner-button {
+    margin-top: 20px;
+    border-radius: 8px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.3);
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.banner-button input{
+    padding: 10px;
+    width: 174px;
+    border-radius: 8px;
+}
+.banner-button select{
+    padding: 10px;
+    width: 174px;
+    border-radius: 8px;
+
+}
+.banner-button button{
+    padding: 10px;
+    background-color: red;
+    width: 174px;
+    border: none;
+    color: white;
+    font-weight: 800px;
+    border-radius: 8px;
+}
+.banner-button span {
+    margin-left: 5px;
+}
+.btn i {
+    margin-right: 10px;
+}
+
+.banner-text {
+    color: white;
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+
+}
+.banner-text h3 {
+    font-size: 42px;
+    font-weight: 800;
+}
+.banner-text p {
+    line-height: 30px;
 }
