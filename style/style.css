@@ -20,12 +20,21 @@ nav {
 
 nav ul {
     display: flex;
-    gap: 15px;
     align-items: center;
 }
 
 .nav-right ul li {
     list-style: none;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    padding: 5px 8px;
+    border-right: 2px solid red;
+}
+.nav-right ul li:hover {
+    color: red;
+    background-color: yellow;
+    padding: 5px 8px;
 }
 
 .nav-left {
@@ -167,4 +176,50 @@ nav ul {
 }
 .banner-text p {
     line-height: 30px;
+}
+/* this is main section start */
+.main-top {
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 0;
+    gap: 30px;
+    padding: 0 30px;
+    width: 100%;
+}
+.main-top img {
+    height: 350px;
+    padding: 40px 30px 0 0;
+    width: auto;
+}
+.main-text-left {
+    padding: 30px 80px 30px 0;
+    width: auto;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-family: mulish;
+}
+.main-text-left h1 {
+    font-size: 36px;
+    font-weight: 800;
+}
+.main-text-li {
+    padding: 0 0 0 10px;
+}
+.main-text-left h3 {
+    padding: 10px;
+    border-radius: 8px;
+    background: rgb(255, 84, 0);
+    color: white;
+    width: 154px;
+    text-align: center;
+
+}
+/* Choose your destination section  */
+.main-destination {
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+  gap: 20px;
 }
