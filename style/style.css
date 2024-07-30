@@ -31,6 +31,7 @@ nav ul {
     padding: 5px 8px;
     border-right: 2px solid red;
 }
+
 .nav-right ul li:hover {
     color: red;
     background-color: yellow;
@@ -49,6 +50,7 @@ nav ul {
 .nav-left span {
     color: red;
 }
+
 /*
 .banner-container {
     background-image: url(../Images/cover1.png);
@@ -114,17 +116,19 @@ nav ul {
 .banner-container {
     border-radius: 16px;
 
-    background: linear-gradient(180.00deg, rgba(19, 19, 24, 0.8),rgba(19, 19, 24, 0) 100%), url(../Images/cover1.png);
+    background: linear-gradient(180.00deg, rgba(19, 19, 24, 0.8), rgba(19, 19, 24, 0) 100%), url(../Images/cover1.png);
     background-repeat: no-repeat;
-    
+
 
 }
+
 .banner-content {
     width: 65%;
     margin: auto;
     text-align: center;
     padding: 120px 0;
 }
+
 .banner-button {
     margin-top: 20px;
     border-radius: 8px;
@@ -134,18 +138,21 @@ nav ul {
     justify-content: space-evenly;
     gap: 10px;
 }
-.banner-button input{
+
+.banner-button input {
     padding: 10px;
     width: 174px;
     border-radius: 8px;
 }
-.banner-button select{
+
+.banner-button select {
     padding: 10px;
     width: 174px;
     border-radius: 8px;
 
 }
-.banner-button button{
+
+.banner-button button {
     padding: 10px;
     background-color: red;
     width: 174px;
@@ -154,9 +161,11 @@ nav ul {
     font-weight: 800px;
     border-radius: 8px;
 }
+
 .banner-button span {
     margin-left: 5px;
 }
+
 .btn i {
     margin-right: 10px;
 }
@@ -164,19 +173,22 @@ nav ul {
 .banner-text {
     color: white;
     display: flex;
-    
+
     flex-direction: column;
     justify-content: center;
     gap: 15px;
 
 }
+
 .banner-text h3 {
     font-size: 42px;
     font-weight: 800;
 }
+
 .banner-text p {
     line-height: 30px;
 }
+
 /* this is main section start */
 .main-top {
     display: flex;
@@ -186,11 +198,13 @@ nav ul {
     padding: 0 30px;
     width: 100%;
 }
+
 .main-top img {
     height: 350px;
     padding: 40px 30px 0 0;
     width: auto;
 }
+
 .main-text-left {
     padding: 30px 80px 30px 0;
     width: auto;
@@ -200,13 +214,16 @@ nav ul {
     gap: 15px;
     font-family: mulish;
 }
+
 .main-text-left h1 {
     font-size: 36px;
     font-weight: 800;
 }
+
 .main-text-li {
     padding: 0 0 0 10px;
 }
+
 .main-text-left h3 {
     padding: 10px;
     border-radius: 8px;
@@ -216,10 +233,280 @@ nav ul {
     text-align: center;
 
 }
+
 /* Choose your destination section  */
 .main-destination {
     display: flex;
     flex-direction: column;
-  align-items: center;
-  gap: 20px;
+    align-items: center;
+    gap: 20px;
+    font-family: mulish;
+}
+
+.main-destination p {
+    text-align: center;
+}
+
+/* grid section start */
+.grid-section {
+    padding: 20px 0;
+}
+
+.grid-first-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 20px;
+    padding: 10px 0;
+}
+
+.grid-second-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 20px;
+    padding: 10px 0;
+}
+
+.grid-third-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 20px;
+    padding: 10px 0;
+}
+
+.grid-first-content {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.maldive-text {
+    position: absolute;
+}
+
+/* why choose us container */
+.choose-text {
+    text-align: center;
+    font-family: mulish;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.choose-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 30px 0;
+}
+
+.choose-container-left {
+    border: 1px solid rgba(251, 181, 99, 0.2);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 20px 20px;
+    border-radius: 16px;
+}
+
+.choose-container-right {
+    background: rgba(41, 206, 246, 0.05);
+    border: 1px solid rgba(41, 206, 246, 0.2);
+    padding: 20px 20px;
+    border-radius: 16px;
+
+}
+
+.choose-container-left-text {
+    padding: 20px 0;
+}
+
+.choose-container-right-text {
+    padding: 20px 0;
+}
+
+.choose-container-button {
+    border: 1px solid rgba(233, 68, 68, 0.2);
+    border-radius: 16px;
+    background: rgba(233, 68, 68, 0.05);
+    padding: 20px 20px;
+    margin: 20px 100px;
+    width: 550px;
+}
+
+.choose-container-button-text {
+    padding: 20px 0;
+}
+
+.choose-button {
+    display: flex;
+
+    justify-content: center;
+
+}
+
+/* deal discount & booking system */
+.deal-header {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.deal-section-top {
+    background: url(../Images/deal1.png);
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    height: 500px;
+    padding: 56px 56px 55px 0;
+    font-family: mulish;
+    margin-top: 30px;
+    border-radius: 16px;
+}
+
+.deal-secction-top-container {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 16px;
+    backdrop-filter: blur(5px);
+    background: rgba(255, 255, 255, 0.8);
+}
+.deal-logo {
+   display: flex;
+   justify-content: space-between;
+   gap: 5px;
+   padding: 30px 100px 20px 20px ;
+}
+.deal-logo i {
+    color: red;
+}
+.deal-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 40px 20px 20px;
+}
+.deal-price {
+    color: rgb(255, 84, 0);
+    padding: 20px 20px;
+    font-weight: 800;
+}
+.deal-book {
+    padding: 20px  20px;
+}
+.deal-book h1 {
+    background-color: rgb(255, 84, 0);
+    padding: 10px 10px;
+    color: white;
+    border-radius: 16px;
+    width: 150px;
+}
+
+/* deal section middle start  */
+.deal-section-middle {
+    background: url(../Images/deal2.png);
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    height: 500px;
+    padding: 56px 0px 55px 56px;
+    font-family: mulish;
+    margin-top: 30px;
+    border-radius: 16px;
+}
+
+.deal-secction-middle-container {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 16px;
+    backdrop-filter: blur(5px);
+    background: rgba(255, 255, 255, 0.8);
+}
+.deal-logo {
+   display: flex;
+   justify-content: space-between;
+   gap: 5px;
+   padding: 30px 100px 20px 20px ;
+}
+.deal-logo i {
+    color: red;
+}
+.deal-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 40px 20px 20px;
+}
+.deal-price {
+    color: rgb(255, 84, 0);
+    padding: 20px 20px;
+    font-weight: 800;
+}
+.deal-book {
+    padding: 20px  20px;
+}
+.deal-book h1 {
+    background-color: rgb(255, 84, 0);
+    padding: 10px 10px;
+    color: white;
+    border-radius: 16px;
+    width: 150px;
+}
+/* deal section middle end */
+/* deal section buttom start */
+.deal-section-buttom {
+    background: url(../Images/deal1.png);
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    height: 500px;
+    padding: 56px 56px 55px 0;
+    font-family: mulish;
+    margin-top: 30px;
+    border-radius: 16px;
+}
+
+.deal-secction-buttom-container {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 16px;
+    backdrop-filter: blur(5px);
+    background: rgba(255, 255, 255, 0.8);
+}
+.deal-logo {
+   display: flex;
+   justify-content: space-between;
+   gap: 5px;
+   padding: 30px 100px 20px 20px ;
+}
+.deal-logo i {
+    color: red;
+}
+.deal-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 40px 20px 20px;
+}
+.deal-price {
+    color: rgb(255, 84, 0);
+    padding: 20px 20px;
+    font-weight: 800;
+}
+.deal-book {
+    padding: 20px  20px;
+}
+.deal-book h1 {
+    background-color: rgb(255, 84, 0);
+    padding: 10px 10px;
+    color: white;
+    border-radius: 16px;
+    width: 150px;
+}
+.deal-pakage {
+    background-color:  rgb(255, 84, 0) ;
+    color: white;
+    padding: 10px  10px;
+    border-radius: 16px;
+    width: 200px;
+    margin-top: 30px;
+    text-align: center;
+    align-items: center;
 }
