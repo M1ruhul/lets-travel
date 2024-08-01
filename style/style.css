@@ -352,6 +352,7 @@ nav ul {
     flex-direction: column;
     gap: 20px;
 }
+
 .deal-section-top {
     background: url(../Images/deal1.png);
     display: flex;
@@ -370,29 +371,35 @@ nav ul {
     backdrop-filter: blur(5px);
     background: rgba(255, 255, 255, 0.8);
 }
+
 .deal-logo {
-   display: flex;
-   justify-content: space-between;
-   gap: 5px;
-   padding: 30px 100px 20px 20px ;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    padding: 30px 100px 20px 20px;
 }
+
 .deal-logo i {
     color: red;
 }
+
 .deal-text {
     display: flex;
     flex-direction: column;
     gap: 20px;
     padding: 20px 40px 20px 20px;
 }
+
 .deal-price {
     color: rgb(255, 84, 0);
     padding: 20px 20px;
     font-weight: 800;
 }
+
 .deal-book {
-    padding: 20px  20px;
+    padding: 20px 20px;
 }
+
 .deal-book h1 {
     background-color: rgb(255, 84, 0);
     padding: 10px 10px;
@@ -420,29 +427,35 @@ nav ul {
     backdrop-filter: blur(5px);
     background: rgba(255, 255, 255, 0.8);
 }
+
 .deal-logo {
-   display: flex;
-   justify-content: space-between;
-   gap: 5px;
-   padding: 30px 100px 20px 20px ;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    padding: 30px 100px 20px 20px;
 }
+
 .deal-logo i {
     color: red;
 }
+
 .deal-text {
     display: flex;
     flex-direction: column;
     gap: 20px;
     padding: 20px 40px 20px 20px;
 }
+
 .deal-price {
     color: rgb(255, 84, 0);
     padding: 20px 20px;
     font-weight: 800;
 }
+
 .deal-book {
-    padding: 20px  20px;
+    padding: 20px 20px;
 }
+
 .deal-book h1 {
     background-color: rgb(255, 84, 0);
     padding: 10px 10px;
@@ -450,6 +463,7 @@ nav ul {
     border-radius: 16px;
     width: 150px;
 }
+
 /* deal section middle end */
 /* deal section buttom start */
 .deal-section-buttom {
@@ -470,43 +484,183 @@ nav ul {
     backdrop-filter: blur(5px);
     background: rgba(255, 255, 255, 0.8);
 }
+
 .deal-logo {
-   display: flex;
-   justify-content: space-between;
-   gap: 5px;
-   padding: 30px 100px 20px 20px ;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    padding: 30px 100px 20px 20px;
 }
+
 .deal-logo i {
     color: red;
 }
+
 .deal-text {
     display: flex;
     flex-direction: column;
     gap: 20px;
     padding: 20px 40px 20px 20px;
 }
+
 .deal-price {
     color: rgb(255, 84, 0);
     padding: 20px 20px;
     font-weight: 800;
 }
+
 .deal-book {
-    padding: 20px  20px;
+    padding: 20px 20px;
+
 }
+
 .deal-book h1 {
     background-color: rgb(255, 84, 0);
     padding: 10px 10px;
     color: white;
     border-radius: 16px;
     width: 150px;
+    display: flex;
+    justify-content: center;
 }
+
 .deal-pakage {
-    background-color:  rgb(255, 84, 0) ;
-    color: white;
-    padding: 10px  10px;
-    border-radius: 16px;
-    width: 200px;
     margin-top: 30px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.deal-pakage {
+    background-color: rgb(255, 84, 0);
+    color: white;
+    padding: 10px 10px;
+    border-radius: 16px;
+    width: 200px;
+}
+
+/* A Simple Perfect Place To Get Lost */
+/* .simple-perfect-place-right {
+background: linear-gradient(180.00deg, rgb(19, 19, 24),rgba(19, 19, 24, 0)), url( ../Images/ourmountain.png);
+padding: 150px 150px;
+background-repeat: no-repeat;
+border-radius: 16px;
+}
+.simple-perfect-place{
+    display: flex;
+    justify-content: space-between;
+}
+.simple-perfect-place-right-content {
+    font-family: mulish;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+}
+
+/* .simple-right-play-icon {
+    display: flex;
+    justify-content: space-between;
+} */
+.perfect-place {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.perfect-place-left {
+    width: 100%;
+}
+
+.perfect-place-right {
+    width: 100%;
+    border-radius: 16px;
+
+    /* background: linear-gradient(180.00deg, rgb(19, 19, 24) -31.958%, rgba(19, 19, 24, 0) 100%), url(../Images/ourmountain.png); */
+}
+
+/* footer form section */
+.footer-form-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.footer-form-section-left {
+    width: 60%;
+    border: 1px solid rgb(30, 30, 30);
+    padding: 20px 20px 20px 20px;
+}
+
+.footer-picture-position {
+    background: url(../Images/positiom.png);
+    border-radius: 8px;
+    width: 100%;
+    position: relative;
+    height: 422px;
+
+}
+
+.picture-position-content {
+    border-radius: 16px;
+    background: rgb(255, 84, 0);
+    width: 200px;
+    padding: 10px;
+    position: absolute;
+    right: 40px;
+    bottom: 60px;
+    rotate: -25deg;
+
+}
+.picture-position-content h1 {
+    text-wrap: nowrap;
+}
+.form-input-area {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    gap: 10px;
+}
+
+.input-padding {
+    padding: 5px 5px;
+}
+
+.form-submit {
+    border-radius: 8px;
+
+    background: rgb(255, 84, 0);
+    padding: 5px;
+    width: 200px;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    visibility: visible;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    background: rgba(19, 19, 24, 0.05);
     align-items: center;
+    text-align: center;
+}
+    .footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.footer-icon {
+    display: flex;
+    gap: 10px;
+}
+.footer-copyright {
+    text-align: center;
+    margin: 20px 0;
+    border-top: 2px solid gray;
+    width: 70%;
+}
+.footer-copyright  p {
+    padding: 20px 0;
 }
